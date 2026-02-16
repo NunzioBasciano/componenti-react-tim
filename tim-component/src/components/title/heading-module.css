@@ -1,0 +1,14 @@
+h2 {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  color: #fff;
+}
+
+@media (min-width: 767px) {
+  h2 {
+    font-size: 40px;
+    line-height: 45px;
+  }
+}

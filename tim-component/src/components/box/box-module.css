@@ -1,0 +1,13 @@
+#modulo-bento {
+  isolation: isolate;
+  background-image: url("/content/dam/flybu/background/bg.webp");
+  background-size: cover;
+  background-color: #122ac2;
+  padding: 32px 16px;
+}
+
+@media (min-width: 767px) {
+  #modulo-bento {
+    padding: 3.33332vw 8.3333vw 2.22221vw 8.3333vw;
+  }
+}

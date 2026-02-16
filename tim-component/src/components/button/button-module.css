@@ -1,0 +1,20 @@
+#modulo-bento .button-module {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 100% */
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding-block: 7px;
+  border-bottom: 2px solid transparent;
+}
+#modulo-bento .button-module:hover,
+#modulo-bento .button-module:active {
+  padding-bottom: 7px;
+  border-bottom: 2px solid #fff;
+}

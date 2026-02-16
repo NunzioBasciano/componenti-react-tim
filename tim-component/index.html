@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <script type="module">
+      import RefreshRuntime from "http://localhost:5173/@react-refresh";
+      RefreshRuntime.injectIntoGlobalHook(window);
+      window.$RefreshReg$ = () => {};
+      window.$RefreshSig$ = () => (type) => type;
+      window.__vite_plugin_react_preamble_installed__ = true;
+    </script>
+
+    <meta charset="UTF-8" />
+    <title>Sviluppo Bento TIM</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        border: none;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <tim-bento></tim-bento>
+
+    <script type="module" src="/src/main.tsx"></script>
+
+    <!--     <link
+      rel="stylesheet"
+      href="/content/dam/flybu/script/v6/tim-component.css"
+    />
+
+    <script
+      defer
+      src="/content/dam/flybu/script/v6/tim-components.umd.js"
+    ></script> -->
+  </body>
+</html>
