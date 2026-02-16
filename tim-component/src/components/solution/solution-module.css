@@ -1,0 +1,58 @@
+#modulo-bento .solution .solution-icon {
+  margin-bottom: 8px;
+}
+
+#modulo-bento .solution h3 {
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 31px;
+  color: #fff;
+  margin-bottom: 24px;
+}
+#modulo-bento .solution p {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 23px;
+  color: #fff;
+  margin-bottom: 16px;
+}
+#modulo-bento .solution-image {
+  display: none;
+}
+@media (min-width: 767px) {
+  #modulo-bento .solution {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 32px;
+    align-self: stretch;
+  }
+
+  #modulo-bento .solution .solution-text {
+    width: 57%;
+    height: 100%;
+  }
+
+  #modulo-bento .solution .solution-image {
+    width: 40%;
+    /*     width: 480px;
+    height: 300px; */
+  }
+  #modulo-bento .solution .solution-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+  }
+  #modulo-bento .solution h3 {
+    font-size: 32px;
+    line-height: 36px;
+  }
+  #modulo-bento .solution p {
+    margin-bottom: 40px;
+  }
+  #modulo-bento .solution-image {
+    display: block;
+  }
+}

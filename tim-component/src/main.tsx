@@ -13,6 +13,8 @@ customElements.define("tim-bento", WebBento);
 /* import React from "react"; */
 import r2wc from "@r2wc/react-to-web-component";
 import Bento from "./components/bento/Bento";
+import { register } from "swiper/element/bundle";
+register();
 
 // Se non passi props nel CMS, r2wc potrebbe non renderizzare nulla.
 // Rendi le props opzionali.

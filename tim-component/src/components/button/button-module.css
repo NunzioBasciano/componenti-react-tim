@@ -18,3 +18,9 @@
   padding-bottom: 7px;
   border-bottom: 2px solid #fff;
 }
+
+@media (min-width: 767px) {
+  #modulo-bento .button-module {
+    width: fit-content;
+  }
+}

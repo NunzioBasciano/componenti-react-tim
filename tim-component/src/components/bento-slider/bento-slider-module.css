@@ -1,0 +1,17 @@
+/* Questo è il pezzo che manca o che viene sovrascritto */
+.swiper {
+  width: 100% !important;
+  height: 100%;
+  position: relative;
+  overflow: hidden !important; /* DEVE ESSERE HIDDEN */
+  display: block !important;
+}
+
+.swiper-wrapper {
+  display: flex !important; /* Forza l'allineamento orizzontale */
+  transition-property: transform !important;
+}
+
+.swiper-slide {
+  flex-shrink: 0 !important; /* Impedisce alle slide di rimpicciolirsi per stare in una riga */
+}

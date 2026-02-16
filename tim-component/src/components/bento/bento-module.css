@@ -3,14 +3,14 @@
   flex-direction: column;
   align-items: baseline;
   gap: 8px;
+  margin-bottom: 32px;
 }
 
-#modulo-bento .container-img {
-}
 @media (min-width: 767px) {
   #modulo-bento .container-heading {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 40px;
   }
 }
